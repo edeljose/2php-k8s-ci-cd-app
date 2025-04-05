@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: php-app
-          image: edeljose/php-k8s-app2:latest
+          image: edeljose/php-k8s-app:latest
           ports:
             - containerPort: 80
           env:

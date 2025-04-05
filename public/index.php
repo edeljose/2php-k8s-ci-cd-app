@@ -1,5 +1,5 @@
 <?php
-echo "Prueba 1"; exit;
+echo "Prueba deploy numero 1 "; exit;
 $mysqli = new mysqli(
     getenv('DB_HOST'),
     getenv('DB_USER'),
